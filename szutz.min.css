@@ -3,6 +3,7 @@ body {
   color: rgb(168, 170, 162);
 }
 
+/* responsive font sizes */
 @media screen and (max-width: 500px){
   #titlename{
     font-size: 50px;
@@ -23,10 +24,10 @@ body {
       rgba(255, 255, 255, 0),
       rgb(33, 37, 41)
     ),
-    url("./lordbusiness.jpg");
+    url("./assets/man-in-black-holding-phone-618613-trimmed.jpg");
   background-size: cover;
-  position: relative;
-  height: 300px;
+  position: left;
+  height: 450px;
   margin-bottom: 50px;
 }
 
@@ -34,27 +35,29 @@ body {
   margin-bottom: 100px;
 }
 
+/*animated hover*/
 #title:hover {
-  background-color: rgb(65, 72, 80);
+  background-position: right;
 }
+
+#title {
+  background-image: linear-gradient(to right ,rgb(33, 37, 41) 50%, rgb(65, 72, 80) 51%, rgb(33, 37, 41) 100%);
+  transition: .33s;
+  background-size: 200% auto;
+}
+
 
 #areaimg{
   display: none;
 }
-/* #area1img {
-    /* The image used
-    background-image: linear-gradient(to bottom, transparent, rgb(20, 20, 27)),
-    url(./assets/photo-of-person-typing-on-computer-keyboard-735911_1000.jpg);
 
-  /* Set a specific height
+#sprint{
+  background-image: url(./assets/schedule-planning-startup-launching-7376.jpg);
   height: 300px;
-
-  /* Create the parallax scrolling effect
-  background-attachment: fixed;
   background-position: middle;
-  background-repeat: no-repeat;
   background-size: cover;
-} */
+  align-items: right;
+}
 
 .parallax1 {
   /* The image used */
