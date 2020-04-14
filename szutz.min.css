@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(33, 37, 41);
+  color: rgb(168, 170, 162);
+}
+
+.jumbotron {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(33, 37, 41)
+    ),
+    url("./lordbusiness.jpg");
+  background-size: cover;
+  position: relative;
+  height: 200px;
+  min-height: 300px;
+  margin-bottom: 50px;
+}
+
+#opening {
+  margin-bottom: 100px;
+}
+
+#title:hover {
+  background-color: rgb(65, 72, 80);
+}
+
+#areaimg{
+  display: none;
+}
+/* #area1img {
+    /* The image used
+    background-image: linear-gradient(to bottom, transparent, rgb(20, 20, 27)),
+    url(./assets/photo-of-person-typing-on-computer-keyboard-735911_1000.jpg);
+
+  /* Set a specific height
+  height: 300px;
+
+  /* Create the parallax scrolling effect
+  background-attachment: fixed;
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.parallax1 {
+  /* The image used */
+  background-image: linear-gradient(to bottom, transparent, rgb(20, 20, 27)),
+    url(./assets/photo-of-person-typing-on-computer-keyboard-735911_1000.jpg);
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer{
+  padding-top: 30px;
+  padding-bottom: 25px;
+  background-color: rgb(65, 72, 80);
+  font-size: 10pt;
+}
