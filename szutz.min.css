@@ -26,9 +26,10 @@ body {
     ),
     url("./assets/man-in-black-holding-phone-618613-trimmed.jpg");
   background-size: cover;
-  position: left;
-  height: 450px;
+  background-position: top;
+  height: 400px;
   margin-bottom: 50px;
+  size: ;
 }
 
 #opening {
